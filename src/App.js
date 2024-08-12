@@ -1,6 +1,7 @@
-import PokemonApp from './components/product/pokemonApp/src/PokemonApp';
+
+
 import './App.css';
-import BlogPage from './components/product/pokemonApp/BlogPage';
+import PolicyPage from './components/policyPage';
 import Header from './components/Header';
 import HomePage from './components/HomePage';
 import {BrowserRouter as Router,Route,Routes} from "react-router-dom";
@@ -13,8 +14,7 @@ function App() {
       
       <Routes>
         <Route path="/" element={<HomePage />}></Route>
-        <Route path="/blog" element={<BlogPage />}></Route>
-        <Route path="/pokemon" element={<PokemonApp />}></Route>
+        <Route path="/policy" element={<PolicyPage />}></Route>
       </Routes>
     </div>
 

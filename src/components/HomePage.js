@@ -6,6 +6,13 @@ import jsImage from "../Images/js.png";
 import firebaseImage from "../Images/firebase.jpg";
 import profileImage from "../Images/sibainu.jpg";
 
+const twitterCloneWeb=()=>{
+  window.location.replace("https://twitter-clone-98280.web.app");
+}
+const pokemonAppWeb=()=>{
+  window.location.replace("https://main.d1blt17lrj7j3g.amplifyapp.com/");
+}
+
 function HomePage() {
   return (
     <div className="container text-center">
@@ -32,8 +39,11 @@ function HomePage() {
           <div class="row text-center">
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
-              <Link to="/pokemon"><i class="fa-brands fa-stack-overflow fa-xl"></i>
-                </Link>
+
+                <div className="pokekemonIcon">
+              <i class="fa-brands fa-stack-overflow fa-xl" onClick={pokemonAppWeb}></i>
+                </div>
+
               </span>
               <h4 class="my-3">ポケモン図鑑</h4>
               <p class="text-muted">
@@ -44,11 +54,15 @@ function HomePage() {
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
 
-
+                <div  className="twitterIcon">
+                   <i class="fa-brands fa-twitter" onClick={twitterCloneWeb}></i>
+                </div>
+                
               </span>
-              <h4 class="my-3">作成中</h4>
+              <h4 class="my-3">ツイッタークローン</h4>
               <p class="text-muted">
-               作成中
+                React.jsとfirebaseを使用してツイッターを作成しております。
+                投稿や指定アカウントへのツイートも可能です。
               </p>
             </div>
             <div class="col-md-4">

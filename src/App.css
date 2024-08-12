@@ -78,6 +78,21 @@ nav ul li a:hover {
   margin-bottom: 60px;
 }
 
+.twitterIcon{
+  color: #1edfd5;
+}
+.twitterIcon:hover{
+  color: #48b4af;
+}
+.pokekemonIcon{
+  color: #8bda1d;
+}
+.pokekemonIcon:hover{
+  color: #69a11b;
+}
+
+
+
 #skill img {
   object-fit: cover;
   margin-bottom: 12px;
@@ -89,4 +104,5 @@ nav ul li a:hover {
 #skill button {
   margin-bottom: 100px;
 }
+
 
