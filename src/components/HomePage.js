@@ -23,9 +23,10 @@ function HomePage() {
       <p>
         中原健太と申します。
         <br />
-        SES営業からキャリアをスタートし、ServiceNow始めSpotfireなどのBIツールに関する案件に従事しておりました。
+        SES営業からキャリアをスタートし、ServiceNowやSpotfireに従事し、
+        現在ではJava,SpringBootを使用した業務システムの開発に従事しております。
         <br /> 
-        HTML,CSS,JavaScriptやReactを主に自己研鑽として努めております。
+        HTML,CSS,JavaScript,React,Flutterを主に自己研鑽として努めております。
       </p>
 
       <section class="page-section" id="services">
@@ -39,7 +40,7 @@ function HomePage() {
           <div class="row text-center">
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
-
+                  {/* ツイッタクローンのポケモン図鑑アイコンリンク */}
                 <div className="pokekemonIcon">
               <i class="fa-brands fa-stack-overflow fa-xl" onClick={pokemonAppWeb}></i>
                 </div>
@@ -53,7 +54,7 @@ function HomePage() {
             </div>
             <div class="col-md-4">
               <span class="fa-stack fa-4x">
-
+                {/* ツイッタクローンのアイコンリンク */}
                 <div  className="twitterIcon">
                    <i class="fa-brands fa-twitter" onClick={twitterCloneWeb}></i>
                 </div>
@@ -62,7 +63,7 @@ function HomePage() {
               <h4 class="my-3">ツイッタークローン</h4>
               <p class="text-muted">
                 React.jsとfirebaseを使用してツイッターを作成しております。
-                投稿や指定アカウントへのツイートも可能です。
+                画面レイアウト部分を主としています。
               </p>
             </div>
             <div class="col-md-4">
@@ -86,7 +87,7 @@ function HomePage() {
             <div class="col-md-4 services">
               <img src={reactImage} />
               <h4>React</h4>
-              <p>Reactがつかえます</p>
+              <p>このポートフォリオページはReactで作成しています。</p>
             </div>
             <div class="col-md-4 services">
               <img src={jsImage} />

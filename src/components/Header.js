@@ -18,7 +18,7 @@ const Header = () => {
                 <Link to="/policy">Policy</Link>
             </li>
             <li>
-                <a href="#">SNS</a>
+                <a href="/form">入力フォーム</a>
             </li>
             
         </ul>
