@@ -2,8 +2,9 @@
 import React, { useState } from "react";
 
 function FormPage() {
-  const [company, setCompany] = useState("");
-  const [name, setName] = useState("");
+  const [company, setCompany] = useState("");//初期化
+  const [name, setName] = useState("");//初期化
+
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -28,7 +29,7 @@ function FormPage() {
       <h1>Company and Name Form</h1>
       <form onSubmit={handleSubmit}>
         <div>
-          <label>Company:</label>
+          <label>所属会社名:</label>
           <input
             type="text"
             value={company}
@@ -36,7 +37,7 @@ function FormPage() {
           />
         </div>
         <div>
-          <label>Name:</label>
+          <label>お名前:</label>
           <input
             type="text"
             value={name}
