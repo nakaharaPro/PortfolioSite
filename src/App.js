@@ -1,5 +1,3 @@
-
-
 import './App.css';
 import PolicyPage from './components/policyPage';
 import Header from './components/Header';
