@@ -17,12 +17,26 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
  
+  
+  
    <!--アイコンリンク-->
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
     
+
+    <div id="root"><div id="particles-js"></div></div>
+
+   
+    <!-- particles.jsを読み込む -->
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <!-- particles.jsの設定を読み込む -->
+    <script>
+      particlesJS.load('particles-js', 'src/particle/particles.json', function () {
+        console.log('particles.js loaded - callback');
+      });
+    </script>
   </body>
 </html>
