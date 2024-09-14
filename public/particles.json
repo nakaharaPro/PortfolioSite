@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 80,
+      "value": 100,
       "density": {
         "enable": true,
-        "value_area": 800
+        "value_area": 300
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#999"
     },
     "shape": {
       "type": "circle",
@@ -88,7 +88,6 @@
       },
       "bubble": {
         "distance": 400,
-        "size": 40,
         "duration": 2,
         "opacity": 8,
         "speed": 3
