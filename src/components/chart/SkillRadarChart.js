@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Radar, RadarChart,
+  Radar, RadarChart, PolarGrid,
 } from 'recharts';
 
 //practical(実務) sef(自己学習) 
