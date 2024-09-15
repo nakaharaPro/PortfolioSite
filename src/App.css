@@ -4,7 +4,7 @@
 }
 
 .App {
-  font-family:  "HiraMinProN-W6";
+  font-family: "HiraMinProN-W6";
   font-size: 18px;
   height: 100vh;
   width: 100%;
@@ -78,17 +78,12 @@ nav ul li a:hover {
   margin-bottom: 60px;
 }
 
-.twitterIcon{
-  color: #1edfd5;
+.Icon {
+  color: #000000;
 }
-.twitterIcon:hover{
-  color: #48b4af;
-}
-.pokekemonIcon{
-  color: #8bda1d;
-}
-.pokekemonIcon:hover{
-  color: #69a11b;
+
+.Icon:hover {
+  color: #575757;
 }
 
 
@@ -106,10 +101,11 @@ nav ul li a:hover {
 }
 
 
-
- #particles-js {
-   position: absolute;
-   width: 100%;
-   height: 100%;
-   background-color: #cecece;/*画面背景*/
- }
+/*パーティクル背景*/
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #cecece;
+  /*画面背景*/
+}
