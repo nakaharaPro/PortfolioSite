@@ -18,9 +18,19 @@ const ParticlesBackground = () => {
 
         loadParticles();
 
-       
+        // クリーンアップ関数: パーティクルの再生成を防ぐため、画面がアンマウントされる際にクリーンアップ(メモリ負荷軽減)
+        return () => {
+            const particlesElement = document.getElementById('particles-js');
+            if (particlesElement && particlesElement.hasChildNodes()) {
+                while (particlesElement.firstChild) {
+                    particlesElement.removeChild(particlesElement.firstChild);
+                }
+                particlesLoaded = false;  // 次回ロード時にリセット
+            }
+        };
+    }, []);
 
-        
+   
 };
 
 export default ParticlesBackground;
