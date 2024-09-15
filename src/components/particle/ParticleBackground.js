@@ -30,7 +30,17 @@ const ParticlesBackground = () => {
         };
     }, []);
 
-   
+    return (
+        <div id="particles-js" style={{
+            position: 'fixed', // スクロールに対応するように fixed
+            width: '100%',
+            height: '100%',
+            top: 0,
+            left: 0,
+            zIndex: 0, // 背景に設定
+            pointerEvents: 'none', // クリックなどのイベントを無効化
+        }}></div>
+    );
 };
 
 export default ParticlesBackground;
