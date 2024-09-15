@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-  Radar, RadarChart, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer, Tooltip, Legend
+  Radar,
 } from 'recharts';
 
 //practical(実務) sef(自己学習) 
