@@ -17,9 +17,9 @@ const Header = () => {
             <li>
                 <Link to="/policy">Policy</Link>
             </li>
-            <li>
+            {/* <li>
                 <Link to="/form">入力フォーム</Link>
-            </li>
+            </li> */}
             
         </ul>
     </nav>
