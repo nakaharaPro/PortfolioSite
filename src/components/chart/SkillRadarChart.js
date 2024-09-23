@@ -9,10 +9,10 @@ const data = [
     subject: 'JavaScript', practical: 30, selfLearning: 30, fullMark: 100,
   },
   {
-    subject: 'React.js', practical: 0, selfLearning: 50, fullMark: 100,
+    subject: 'React.js', practical: 0, selfLearning: 40, fullMark: 100,
   },
   {
-    subject: 'Firebase', practical: 0, selfLearning: 75, fullMark: 100,
+    subject: 'Firebase', practical: 0, selfLearning: 40, fullMark: 100,
   },
  
   {
