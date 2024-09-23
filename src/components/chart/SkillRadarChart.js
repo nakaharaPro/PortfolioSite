@@ -9,12 +9,11 @@ const data = [
     subject: 'JavaScript', practical: 30, selfLearning: 30, fullMark: 100,
   },
   {
-    subject: 'React.js', practical: 0, selfLearning: 40, fullMark: 100,
+    subject: 'React.js', practical: 0, selfLearning: 50, fullMark: 100,
   },
   {
     subject: 'Firebase', practical: 0, selfLearning: 40, fullMark: 100,
   },
- 
   {
     subject: 'Python', practical: 0, selfLearning: 40, fullMark: 100,
   },
@@ -22,7 +21,7 @@ const data = [
     subject: 'Flutter', practical: 0, selfLearning: 85, fullMark: 100,
   },
   {
-    subject: 'Java(SpringBoot)', practical: 90, selfLearning: 70, fullMark: 100,
+    subject: 'Java(SpringBoot)', practical: 90, selfLearning: 50, fullMark: 100,
   },
   {
     subject: 'RDB(SQL)', practical: 60, selfLearning: 50, fullMark: 100,

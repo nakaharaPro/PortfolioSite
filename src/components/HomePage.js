@@ -6,7 +6,7 @@ import { FaListAlt } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 
-import profileImage from "../Images/sibainu.jpg";
+import profileImage from "../Images/shiba.jpeg";
 
 const twitterCloneWeb = () => {
   window.open("https://twitter-clone-98280.web.app");
