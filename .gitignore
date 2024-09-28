@@ -1,0 +1,11 @@
+# node_modules ディレクトリ全体を無視
+node_modules/
+
+# 特定のキャッシュディレクトリを無視
+node_modules/.cache/
+
+# 環境ごとの設定ファイルなどを無視（必要に応じて追加）
+.DS_Store
+.env
+.vscode/
+.idea/
