@@ -6,7 +6,7 @@ import { FaListAlt } from "react-icons/fa";
 import { IoLogoTwitter } from "react-icons/io5";
 import { FaAppStoreIos } from "react-icons/fa";
 
-import profileImage from "../Images/shiba.jpeg";
+import profileImage from "../Images/shiba.jpg";
 
 const twitterCloneWeb = () => {
   window.open("https://twitter-clone-98280.web.app");
@@ -27,7 +27,7 @@ function HomePage() {
 
       <div className="container text-center" style={{ position: 'relative', zIndex: 1 }}>
         <h1>Nakahara Kenta</h1>
-        <img src={profileImage} className="profileImage" alt="Profile of Nakahara Kenta" />
+        <img src={profileImage} className="profileImage"/>
         <p>
           中原健太と申します。
           SES営業からキャリアをスタートし、Java,SpringBootを使用した業務システムの開発に従事。
