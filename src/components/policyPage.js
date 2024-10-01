@@ -1,6 +1,8 @@
 import React from 'react'
 
 
+
+
 function policyPage() {
   return (
     <div className="container">
