@@ -61,8 +61,10 @@ function HomePage() {
                 <span className="fa-stack fa-4x">
                   <i className="fa-brands Icon" onClick={caraqueApp}><FaAppStoreIos /></i>
                 </span>
-                <h4 className="my-3">洋菓子店アプリ</h4>
+                <h4 className="my-3">洋菓子店アプリ:iosアプリ</h4>
                 <p className="text-muted">FlutterとFirebaseで作成。</p>
+                <p className="text-muted">※アイコンより飛べない場合は以下URLで検索してください。</p>
+                <p className="text-muted">https://apps.apple.com/app/caraque/id6642705741</p>
                 <p className="text-muted">お気に入り機能、注文メール送信機能を実装。</p>
 
               </div>
